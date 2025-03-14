@@ -34,7 +34,7 @@ namespace Motors
             {
 				sum += motors[i].PriceInEur;
             }
-			return (int)sum;
+            return (int)sum;
         }
 
 		public bool Contains(string motorName)
